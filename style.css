@@ -6,14 +6,13 @@ body {
   background-color: #f9f9f9;
   color: #333;
   scroll-behavior: smooth;
-}
-/* Disable text selection for entire body */
-body {
-  user-select: none;
+   user-select: none;
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+ */
 }
+/* Disable text selection for entire body */
+
 
 /* Or disable only for a specific section */
 #about, #projects, #skills, #contact {
